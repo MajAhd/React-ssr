@@ -69,7 +69,7 @@
     "start-deploy": "npm run start-server-deploy",
     "build-deploy": "webpack & npm run babel-production",
     "build-watch": "webpack -w & npm run babel",
-    "babel-production": "babel src -d build/views",
+    "babel-production": "babel src -d build/views"
   },
   "eslintConfig": {
     "extends": "react-app"
