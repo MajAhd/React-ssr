@@ -1,0 +1,14 @@
+ body {
+   margin: 0;
+   background-color: #313030 !important;
+   font-family: "Helvetica Neue";
+ }
+
+ .card {
+   color: black !important;
+ }
+
+ .blogHeader {
+   text-align: left;
+   padding: 10px;
+ }
