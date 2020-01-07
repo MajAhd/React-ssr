@@ -36,6 +36,7 @@ const Navbar = props => {
                 href="https://github.com/MajAhd/ReactSSR"
                 target="_blank"
                 className="nav-link"
+                rel="noopener noreferrer"
               >
                 Github
               </a>

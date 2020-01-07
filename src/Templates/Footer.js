@@ -25,7 +25,11 @@ const Footer = props => {
 
               <li>
                 -{" "}
-                <a href="https://github.com/MajAhd/ReactSSR" target="_blank">
+                <a
+                  href="https://github.com/MajAhd/ReactSSR"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Github
                 </a>
               </li>
@@ -43,6 +47,7 @@ const Footer = props => {
                 className="btn btn-link btn-pure"
                 href="https://www.linkedin.com/in/majahd"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Majid Ahmadi
               </a>
@@ -52,7 +57,9 @@ const Footer = props => {
         <div className="row mt-5">
           <div className="col copyright">
             <p className="">
-              <small className="text-white-50">© 2019</small>
+              <small className="text-white-50">
+                © {new Date().getFullYear()}
+              </small>
             </p>
           </div>
         </div>

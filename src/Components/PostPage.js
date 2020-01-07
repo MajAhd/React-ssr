@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, { Component } from "react";
 import Layout from "../Layouts/Layout";
 import Spinner from "../Templates/Spinner";
 import Aux from "../HOC/Aux";

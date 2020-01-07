@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Aux from "../HOC/Aux";
 import { useHistory } from "react-router-dom";
 const ModalPage = props => {
